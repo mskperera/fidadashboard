@@ -1,0 +1,11 @@
+.makeStyles-warningCardHeader-9444:not(.makeStyles-cardHeaderIcon-9443) {
+  background: linear-gradient(60deg, #ff6a00, #fb8c00);
+  box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%),
+    0 7px 10px -5px rgb(255 152 0 / 40%);
+}
+.makeStyles-cardBody-7066 {
+  flex: 1 1 auto;
+  padding: 0 20px;
+  position: relative;
+  -webkit-box-flex: 1;
+}
