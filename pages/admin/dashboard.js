@@ -152,7 +152,7 @@ function Dashboard() {
               <p className={classes.cardCategory} style={{ color: "black" }}>
                 Employees
               </p>
-              <h3 className={classes.cardTitle}>245</h3>
+              <h3 className={classes.cardTitle}>245 </h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
@@ -170,7 +170,7 @@ function Dashboard() {
               <p className={classes.cardCategory} style={{ color: "black" }}>
                 Presents
               </p>
-              <h3 className={classes.cardTitle}>2450</h3>
+              <h3 className={classes.cardTitle}>235</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
@@ -188,7 +188,7 @@ function Dashboard() {
               <p className={classes.cardCategory} style={{ color: "black" }}>
                 Absent
               </p>
-              <h3 className={classes.cardTitle}>2450</h3>
+              <h3 className={classes.cardTitle}>10</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
@@ -206,7 +206,7 @@ function Dashboard() {
               <p className={classes.cardCategory} style={{ color: "black" }}>
                 OT Assigned
               </p>
-              <h3 className={classes.cardTitle}>2450</h3>
+              <h3 className={classes.cardTitle}>100</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
