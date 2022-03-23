@@ -25,10 +25,9 @@ import PageChange from "components/PageChange/PageChange.js";
 
 import "assets/css/nextjs-material-dashboard.css?v=1.1.0";
 // import "assets/css/custom.css";
-import MomentUtils from '@date-io/moment';
-import DateFnsUtils from '@date-io/date-fns';
-import { MuiPickersUtilsProvider } from '@material-ui/pickers';
-
+import MomentUtils from "@date-io/moment";
+import DateFnsUtils from "@date-io/date-fns";
+import { MuiPickersUtilsProvider } from "@material-ui/pickers";
 
 Router.events.on("routeChangeStart", (url) => {
   console.log(`Loading: ${url}`);
@@ -89,12 +88,12 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>NextJS Material Dashboard by Creative Tim</title>
+          <title>SMART HRIS Dashboard</title>
           <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
         </Head>
         <Layout>
-        <MuiPickersUtilsProvider utils={DateFnsUtils}>
-          <Component {...pageProps} />
+          <MuiPickersUtilsProvider utils={DateFnsUtils}>
+            <Component {...pageProps} />
           </MuiPickersUtilsProvider>
         </Layout>
       </React.Fragment>
